@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CyberLearn Dressing Room</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./../assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="text-center">
+            <img src="./../assets/images/cybersoft.png" alt="Card image" />
+          </div>
+
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+              - Virtual Dressing Room
+            </h4>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <!-- render menu tab -->
+        <ul class="nav nav-pills" id="myTab" role="tablist"></ul>
+        <div class="well">
+          <!-- Tab panes content -->
+          <div class="tab-content" id="myTabContent"></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contain" id="renderModel">
+          <div class="body"></div>
+          <div class="model"></div>
+          <div class="hairstyle" data-item-type="hairstyle"></div>
+          <div class="necklace" data-item-type="necklaces"></div>
+          <div class="bikinitop"></div>
+          <div class="topCloth" data-item-type="topclothes"></div>
+          <div class="bikinibottom"></div>
+          <div class="botCloth" data-item-type="botclothes"></div>
+          <div class="handbag" data-item-type="handbags"></div>
+          <div class="feetLeft"></div>
+          <div class="feetRight"></div>
+          <div class="shoes" data-item-type="shoes"></div>
+          <div class="background" data-item-type="background"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+  <script src="./../models/ListChosen.js"></script>
+  <script src="./../models/ChoseItem.js"></script>
+  <script src="./../utils/callData.js"></script>
+  <script src="./../controllers/main.js"></script>
+</body>
+
+</html>
